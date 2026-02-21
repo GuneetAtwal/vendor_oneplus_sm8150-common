@@ -495,9 +495,15 @@ PRODUCT_PACKAGES += \
     libQSEEComAPI \
     libQTEEConnector_vendor \
     libSecureUILib \
+    libSTDualCamCaptureWT \
     libSonyIMX471RmscLibrary \
     libStDrvInt \
+    libSuperSensor \
+    libSuperSensorFallback \
+    libSuperSensorProcessor \
+    libSuperSensorProcessorCWrapper \
     lib_bokehlib \
+    lib_oneplus_watermark \
     libadsp_default_listener \
     libaoa \
     libarcsoft_beautyshot \
@@ -613,6 +619,7 @@ PRODUCT_PACKAGES += \
     libsensorcal \
     libsensorslog \
     libsettings \
+    libsdk_sr \
     libsns_device_mode_stub \
     libsns_fastRPC_util \
     libsns_low_lat_stream_stub \
@@ -624,10 +631,12 @@ PRODUCT_PACKAGES += \
     libssc_default_listener \
     libssd \
     libstblur_capture_api \
+    libst_relighting \
     libswregistrationalgo \
     libsystem_health_mon \
     libtime_genoff \
     libtinyxml2_1 \
+    libtriplecam_image_optical_zoom \
     libtriplecam_optical_zoom_control \
     libtriplecam_video_optical_zoom \
     libtrustedapploader \
