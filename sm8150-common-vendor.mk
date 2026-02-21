@@ -63,7 +63,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8150-common/proprietary/odm/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/fdconfigvideo.bin \
     vendor/oneplus/sm8150-common/proprietary/odm/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/fdconfigvideolite.bin \
     vendor/oneplus/sm8150-common/proprietary/odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_ODM)/vendor/etc/wifi/WCNSS_qcom_cfg.ini \
-    vendor/oneplus/sm8150-common/proprietary/odm/lib64/goldResult.bin:$(TARGET_COPY_OUT_ODM)/lib64/goldResult.bin \
     vendor/oneplus/sm8150-common/proprietary/system/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     vendor/oneplus/sm8150-common/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/oneplus/sm8150-common/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
@@ -466,9 +465,7 @@ PRODUCT_PACKAGES += \
     deviceInfoServiceModule \
     android.hardware.gatekeeper@1.0-impl-qti \
     android.hardware.gnss@2.1-impl-qti \
-    camera.qcom \
     com.dsi.ant@1.0-impl \
-    com.qti.chi.override \
     vendor.qti.gnss@4.0-impl \
     vendor.qti.hardware.alarm@1.0-impl \
     vendor.qti.hardware.qseecom@1.0-impl \
