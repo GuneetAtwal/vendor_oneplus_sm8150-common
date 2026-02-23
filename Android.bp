@@ -20898,3 +20898,38 @@ cc_prebuilt_library_shared {
     product_specific: true,
     check_elf_files: false,
 }
+
+install_symlink {
+    name: "libarcsoft_dualcam_bokeh_api_so",
+    vendor: true,
+    installed_location: "lib64/libarcsoft_dualcam_bokeh_api.so",
+    symlink_target: "/odm/lib64/libarcsoft_dualcam_bokeh_api.so",
+}
+
+install_symlink {
+    name: "libarcsoft_dualcam_refocus_left_so",
+    vendor: true,
+    installed_location: "lib64/libarcsoft_dualcam_refocus_left.so",
+    symlink_target: "/odm/lib64/libarcsoft_dualcam_refocus_left.so",
+}
+
+install_symlink {
+    name: "libarcsoft_dualcam_refocus_preview_so",
+    vendor: true,
+    installed_location: "lib64/libarcsoft_dualcam_refocus_preview.so",
+    symlink_target: "/odm/lib64/libarcsoft_dualcam_refocus_preview.so",
+}
+
+install_symlink {
+    name: "libarcsoft_dualcam_refocus_right_so",
+    vendor: true,
+    installed_location: "lib64/libarcsoft_dualcam_refocus_right.so",
+    symlink_target: "/odm/lib64/libarcsoft_dualcam_refocus_right.so",
+}
+
+install_symlink {
+    name: "libarcsoft_dualcam_refocus_uw_so",
+    vendor: true,
+    installed_location: "lib64/libarcsoft_dualcam_refocus_uw.so",
+    symlink_target: "/odm/lib64/libarcsoft_dualcam_refocus_uw.so",
+}
