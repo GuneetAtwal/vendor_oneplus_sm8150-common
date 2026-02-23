@@ -499,6 +499,7 @@ PRODUCT_PACKAGES += \
     libSonyIMX471RmscLibrary \
     libStDrvInt \
     lib_bokehlib \
+    lib_oneplus_watermark \
     libadsp_default_listener \
     libaoa \
     libarcsoft_beautyshot \

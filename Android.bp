@@ -20899,6 +20899,36 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 
+cc_prebuilt_library_shared {
+    name: "lib_oneplus_watermark",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/lib_oneplus_watermark.so",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/lib_oneplus_watermark.so",
+            ],
+        },
+    },
+    shared_libs: [
+        "liblog",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
 install_symlink {
     name: "libarcsoft_dualcam_bokeh_api_so",
     vendor: true,
